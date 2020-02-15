@@ -3,6 +3,8 @@
 # Build Docker image
 #
 
+export DOCKER_BUILDKIT=1
+
 echo "@@ Build Docker image ..."
 
 target=koichimurakamik6/anaconda3:latest
