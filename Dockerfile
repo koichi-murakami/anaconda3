@@ -12,10 +12,10 @@ RUN apt-get update
 
 RUN apt-get install -y zsh vim sudo
 
-RUN conda install -y -c plotly plotly=4.5.0 && \
-    conda install -y "notebook>=5.3" "ipywidgets>=7.2" && \
-    conda install -y -c conda-forge pydicom && \
-    conda install -y -c conda-forge gdcm
+#RUN conda install -y -c plotly plotly=4.5.0 && \
+#    conda install -y "notebook>=5.3" "ipywidgets>=7.2"&& \
+#    conda install -y -c conda-forge pydicom && \
+#    conda install -y -c conda-forge gdcm
 
 #
 WORKDIR /
