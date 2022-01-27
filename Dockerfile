@@ -12,7 +12,7 @@ RUN apt-get update
 
 RUN apt-get install -y zsh vim sudo
 
-RUN conda install -y -c plotly plotly=5.3.1 && \
+RUN conda install -y -c plotly plotly=5.5.0 && \
     conda install -y "jupyterlab>=3" "ipywidgets>=7.6" && \
     conda install -y -c conda-forge -c plotly jupyter-dash && \
     conda install -y -c conda-forge pydicom && \
