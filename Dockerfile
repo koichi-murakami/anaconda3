@@ -12,7 +12,7 @@ RUN apt-get update
 
 RUN apt-get install -y zsh vim sudo
 
-RUN pip install plotly==5.9.0 && \
+RUN pip install plotly==5.13.0 && \
     pip install "jupyterlab>=3" "ipywidgets>=7.6" && \
     pip install jupyter-dash && \
     pip install pydicom && \
